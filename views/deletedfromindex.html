@@ -1,7 +1,3 @@
-<h1>Eat-Da-Burgers</h1>
-
-<h2>Burgers that are ready to eat!</h2>
-
 <div>
   {{#each burgers}}
     {{#unless devoured}}
@@ -31,7 +27,7 @@
   <div class="form-group">
     <label for="devoured">Devoured?</label><br>
     <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-    <input type="radio" name="eat" value="0"> Available to Eat!
+    <input type="radio" name="devoured" value="0"> Awake
   </div>
 
   <button type="submit">Add Burger</button>

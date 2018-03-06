@@ -1,8 +1,11 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
+//set up passwords with the dotenv package.
+require("dotenv").config();
 
+//reminder to self, it will not work at port 3000
 var connection = mysql.createConnection({
-  port: 3000,
+  port: 3306,
   host: "localhost",
   user: "root",
   password: process.env.MYSQL_PASSWORD,

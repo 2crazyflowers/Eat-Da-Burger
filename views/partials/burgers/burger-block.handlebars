@@ -1,13 +1,10 @@
-<h1>Eat the Burgers</h1>
 
-<h2>Burgers that are not devoured!</h2>
+<div>
+	{{burger_name}}
 
-<li>
-	{{name}}
-
-	<button class="devour" data-id="{{id}}" data-newdevour="{{devour}}">
-		{{#if devoured}}Devour It!{{else}}Compost It!{{/if}}
+	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
+		{{#if devoured}}Devour It!{{else}}Not good - compost it!{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
-</li>
+	<button class="delete-burger" data-id="{{this.id}}">Compost IT!</button>
+</div>
