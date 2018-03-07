@@ -1,0 +1,36 @@
+.card-header {
+	font-size: 30px;
+	background-color: #ef6c00;
+	font-family: 'Skranji', cursive;
+	
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 70px;
+}
+
+.card-body {
+	/*background-color: #e2e1e0;*/
+	background-color: rgba(226, 225, 224, 0.1);
+	/*filter: alpha(opacity=10);*/
+	/*opacity: 0.5;*/
+}
+
+.card-text {
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.col-4 img {
+	padding-left: 50px;
+}
+
+.jumbotron {
+	height: 100%;
+	margin-left: 20px;
+}
+
+.card {
+	margin-right: auto;
+}
