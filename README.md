@@ -113,7 +113,9 @@ __One option for executing the database code required to run the app is:__
 
 1. Go back to the `db` folder in you text editor and open the `seeds.sql` file and copy the code and paste it into the open tab in MySQL Workbench and execute the code.
 
+
 __The other option for running the MySQL code is to:__
+
 
 1. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line
 
@@ -145,116 +147,51 @@ __The other option for running the MySQL code is to:__
 
 1. Type `node server.js` end hit enter
 
-------------------------put image of command line and what it will show here-------------------
+![Image of Command Line](href:"/assets/img/commandline.PNG")
 
 1. Go to your browser and open a new tab and type `localhost:3000` then hit enter
 
--------------------------have images here of the app and what they will see---------------------
+![Image of App in Browser](href:"/assets/img/browserimage.PNG")
+As you can see from the image there are 3 columns: Ready to Eat da Burger, Devoured Burgers, Order da Burger 
 
-	* How to Devour a burger
+Eat da Burger Option
 
-	* How to Compost a burger
+	* In the `Ready to Eat da Burger column, if you hit the `Devour It !` button it will change the devour status to true in MySQL, which will place the burger in the Devoured Burgers column. This burger will still be listed in MySQL. For example, if you choose to devour the Grilled Onion Cheeseburger, this is what it looks like in MySQL. Note that the Devour number is a 0 which equals true:
+	![Image of MySQL Before Devour](href:"/assets/img/mysql1.PNG")
 
-	* How to Add a burger
+	* If then I hit the button to devour it, you can see that the Devour number changes to false, which in binary code is 1:
+	![Image of MySQL After Devour](href:"/assets/img/mysql2.PNG")
+
+Reorder da Burger
+
+	* You can choose to reorder a burger that was eaten if it sounds good to you. Just hit the `Reoder It` button under Devoured Burgers and it will show as Ready to Eat again.
+
+Order da Burger
+	* You can add or order a burger by going to that column and typing in the name of your favorite buger then hit order. The burger will be added to the Eat da Burger column since the default setting on adding a burger is to set the Devour to true, which places it in that column.
+	
+	* ![Here is MySQL before I added the burger:](href:"/assets/img/beforeaddsql.PNG")
+
+	* ![Here I am adding a Egg and Bacon Burger:](href:"/assets/img/addbrowser.PNG")
+
+	* ![This shows the addition to the Ready to Eat da Burger column:](href:"/assets/img/afteraddbrowser.PNG")
+
+	* ![And lastly that it was added to MySQL:](href:"/assets/img/afteraddsql.PNG") 
 
 
-----------------------STILL NEED TO DO-----------------------------------------
-
-End with an example of getting some data out of the system or using it for a little demo
-
-?????
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-?????
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-?????
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-??????
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+This application is delployed at 
 
-????????????????????How is Built with different from Prerequisits???????????????????????
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Sara Bracewell** - *Initial work* - [2crazyflowers](https://github.com/2crazyflowers)
+* **Sara Bracewell** - [2crazyflowers](https://github.com/2crazyflowers)
 
 ## Acknowledgments
 
-* A big thanks to Sunday coding crew, especially Phil Stubbs who is always, without even trying to, pushes me to do more and better.
+* A big thanks to Sunday coding crew, especially Phil Stubbs who is always, without even trying to, pushing me to do more and better.
 * Background Photo by Andrew Walton @w_andrew_j (instagram) on Unsplash
-* etc
 
+## Issues
 
-### Important
-
-Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHerokuDeploymentProcess.pdf) in order to deploy your assignment.
-
-
-
-
-#### Config Setup
-
-   * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
-
-     * `selectAll()`
-     * `insertOne()`
-     * `updateOne()`
-
-- - -
-
---------------------------------STILL NEED TO------------------------------------------------------------
-
-### Hosting on Heroku
-
-Now that we have a backend to our applications, we use Heroku for hosting. Please note that while **Heroku is free**, it will request credit card information if you have more than 5 applications at a time or are adding a database.
-
-Please see [Heroku’s Account Verification Information](https://devcenter.heroku.com/articles/account-verification) for more details.
-
-- - -
-
-### Create a README.md
-
-Add a `README.md` to your repository describing the project. Here are some resources for creating your `README.md`. Here are some resources to help you along the way:
-
-* [About READMEs](https://help.github.com/articles/about-readmes/)
-
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
-- - -
-
--------------------------------STILL NEED TO DO---------------------------------------------------
-### Add To Your Portfolio
-
-After completing the homework please add the piece to your portfolio. Make sure to add a link to your updated portfolio in the comments section of your homework so the TAs can easily ensure you completed this step when they are grading the assignment. To receive an 'A' on any assignment, you must link to it from your portfolio.
-_________________________________________________________________________________________________
+	* One issue that I have noticed is that there is a lag in time between making changes on the browser and those changes being updated to the browser and MySQL. 

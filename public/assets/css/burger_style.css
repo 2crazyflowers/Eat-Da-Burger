@@ -1,5 +1,5 @@
 .card-header {
-	font-size: 30px;
+	font-size: 2rem;
 	background-color: #ef6c00;
 	font-family: 'Skranji', cursive;
 	
@@ -8,10 +8,11 @@
 h1 {
 	color: #3C2B1B;
 	font-weight: bold;
-	font-size: 70px;
+	font-size: 4rem;
 }
 
 h3 {
+	font-size: 2rem;
 	color: #c4beb8;
 }
 
@@ -52,13 +53,13 @@ footer {
 }
 
 .btn-outline-secondary {
-	padding: 2px;
+	padding: 4px;
 	background-color: white;
 	font-size: 15px;
 }
 
 .card {
-	min-width: 29%;
+	width: 365px;
 }
 
 .burger-div {
