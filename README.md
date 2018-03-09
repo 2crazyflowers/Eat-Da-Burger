@@ -147,20 +147,20 @@ __The other option for running the MySQL code is to:__
 
 1. Type `node server.js` end hit enter
 
-![Image of Command Line](href:"/public/assets/img/commandline.PNG")
+![Image of Command Line](./public/assets/img/commandline.PNG)
 
 1. Go to your browser and open a new tab and type `localhost:3000` then hit enter
 
-![Image of App in Browser](href:"/public/assets/img/browserimage.PNG")
+![Image of App in Browser](.public/assets/img/browserimage.PNG)
 As you can see from the image there are 3 columns: Ready to Eat da Burger, Devoured Burgers, Order da Burger 
 
 Eat da Burger Option
 
-* In the `Ready to Eat da Burger column, if you hit the `Devour It !` button it will change the devour status to true in MySQL, which will place the burger in the Devoured Burgers column. This burger will still be listed in MySQL. For example, if you choose to devour the Grilled Onion Cheeseburger, this is what it looks like in MySQL. Note that the Devour number is a 0 which equals true:
-![Image of MySQL Before Devour](href:"/public/assets/img/mysql1.PNG")
+* In the `Ready to Eat da Burger` column, if you hit the `Devour It !` button it will change the devour status to true in MySQL, which will place the burger in the Devoured Burgers column. This burger will still be listed in MySQL. For example, if you choose to devour the Grilled Onion Cheeseburger, this is what it looks like in MySQL. Note that the Devour number is a 0 which equals true:
+![Image of MySQL Before Devour](./public/assets/img/mysql1.PNG)
 
 * If then I hit the button to devour it, you can see that the Devour number changes to false, which in binary code is 1:
-![Image of MySQL After Devour](href:"/public/assets/img/mysql2.PNG")
+![Image of MySQL After Devour](./public/assets/img/mysql2.PNG)
 
 Reorder da Burger
 
@@ -170,13 +170,13 @@ Order da Burger
 
 * You can add or order a burger by going to that column and typing in the name of your favorite buger then hit order. The burger will be added to the Eat da Burger column since the default setting on adding a burger is to set the Devour to true, which places it in that column.
 	
-* ![Here is MySQL before I added the burger:](href:"/public/assets/img/beforeaddsql.PNG")
+* ![Here is MySQL before I added the burger:](./public/assets/img/beforeaddsql.PNG)
 
-* ![Here I am adding a Egg and Bacon Burger:](href:"/public/assets/img/addbrowser.PNG")
+* ![Here I am adding a Egg and Bacon Burger:](./public/assets/img/addbrowser.PNG)
 
-* ![This shows the addition to the Ready to Eat da Burger column:](href:"/public/assets/img/afteraddbrowser.PNG")
+* ![This shows the addition to the Ready to Eat da Burger column:](./public/assets/img/afteraddbrowser.PNG)
 
-* ![And lastly that it was added to MySQL:](href:"/public/assets/img/afteraddsql.PNG") 
+* ![And lastly that it was added to MySQL:](./public/assets/img/afteraddsql.PNG) 
 
 
 ## Deployment
