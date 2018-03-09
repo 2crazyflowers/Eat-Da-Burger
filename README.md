@@ -212,7 +212,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Acknowledgments
 
 * A big thanks to Sunday coding crew, especially Phil Stubbs who is always, without even trying to, pushes me to do more and better.
-* Inspiration
+* Background Photo by Andrew Walton @w_andrew_j (instagram) on Unsplash
 * etc
 
 

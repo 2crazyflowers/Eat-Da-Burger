@@ -1,10 +1,13 @@
 
-<div>
-	{{burger_name}}
-
-	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
-		{{#if devoured}}Devour It!{{else}}compost it!{{/if}}
-	</button>
-
-	<button type="button" class="delete-burger" data-id="{{this.id}}">Compost IT!</button>
+<div class="burger-div">
+	<div class="row">
+		<div class="col-8">
+			{{burger_name}}
+		</div>
+		<div class="col-4">
+			<button class="change-devour btn btn-outline-secondary rounded-0" data-id="{{id}}" data-newdevour="{{devoured}}">
+				{{#if devoured}}Devour It!{{else}}Compost it!{{/if}}
+			</button>
+		</div>
+	</div>
 </div>
