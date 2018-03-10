@@ -12,8 +12,6 @@ This app is all about eating burgers, yes, that's right! You'll create a burger 
 
 * Your app will store every burger in a database, whether devoured or not.
 
-* [Check out this video of the app for a run-through of how it works](burger_demo.mp4).
-
 ```
 
 ## Getting Started
@@ -164,6 +162,11 @@ As you can see from the image there are 3 columns: Ready to Eat da Burger, Devou
 	![Image of MySQL Before Devour](./public/assets/img/mysql1.PNG)
 
 * If then I hit the button to devour it, you can see that the Devour number changes to false, which in binary code is 1:
+<<<<<<< HEAD
+=======
+
+	![Image of MySQL After Devour](./public/assets/img/mysql2.PNG)
+>>>>>>> 55d5e40bc8d59e3d7664e0141f160f482ab9d4af
 
 	![Image of MySQL After Devour](./public/assets/img/mysql2.PNG)
 
@@ -176,6 +179,7 @@ As you can see from the image there are 3 columns: Ready to Eat da Burger, Devou
 * You can add or order a burger by going to that column and typing in the name of your favorite buger then hit order. The burger will be added to the Eat da Burger column since the default setting on adding a burger is to set the Devour to true, which places it in that column.
 
 * Here is MySQL before I added the burger:
+<<<<<<< HEAD
 	
 	![Here is MySQL before I added the burger:](./public/assets/img/beforeaddsql.PNG)
 
@@ -183,6 +187,15 @@ As you can see from the image there are 3 columns: Ready to Eat da Burger, Devou
 
 	![Here I am adding a Egg and Bacon Burger:](./public/assets/img/addbrowser.PNG)
 
+=======
+
+	![Here is MySQL before I added the burger:](./public/assets/img/beforeaddsql.PNG)
+
+* Here I am adding a Egg and Bacon Burger:
+
+	![Here I am adding a Egg and Bacon Burger:](./public/assets/img/addbrowser.PNG)
+	
+>>>>>>> 55d5e40bc8d59e3d7664e0141f160f482ab9d4af
 * This shows the addition to the Ready to Eat da Burger column:
 
 	![This shows the addition to the Ready to Eat da Burger column:](./public/assets/img/afteraddbrowser.PNG)
