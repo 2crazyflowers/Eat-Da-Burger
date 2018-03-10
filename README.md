@@ -12,8 +12,6 @@ This app is all about eating burgers, yes, that's right! You'll create a burger 
 
 * Your app will store every burger in a database, whether devoured or not.
 
-* [Check out this video of the app for a run-through of how it works](burger_demo.mp4).
-
 ```
 
 ## Getting Started
@@ -157,10 +155,12 @@ As you can see from the image there are 3 columns: Ready to Eat da Burger, Devou
 Eat da Burger Option
 
 * In the `Ready to Eat da Burger` column, if you hit the `Devour It !` button it will change the devour status to true in MySQL, which will place the burger in the Devoured Burgers column. This burger will still be listed in MySQL. For example, if you choose to devour the Grilled Onion Cheeseburger, this is what it looks like in MySQL. Note that the Devour number is a 0 which equals true:
-![Image of MySQL Before Devour](./public/assets/img/mysql1.PNG)
+
+	![Image of MySQL Before Devour](./public/assets/img/mysql1.PNG)
 
 * If then I hit the button to devour it, you can see that the Devour number changes to false, which in binary code is 1:
-![Image of MySQL After Devour](./public/assets/img/mysql2.PNG)
+
+	![Image of MySQL After Devour](./public/assets/img/mysql2.PNG)
 
 Reorder da Burger
 
@@ -169,19 +169,27 @@ Reorder da Burger
 Order da Burger
 
 * You can add or order a burger by going to that column and typing in the name of your favorite buger then hit order. The burger will be added to the Eat da Burger column since the default setting on adding a burger is to set the Devour to true, which places it in that column.
+
+* Here is MySQL before I added the burger:
+
+	![Here is MySQL before I added the burger:](./public/assets/img/beforeaddsql.PNG)
+
+* Here I am adding a Egg and Bacon Burger:
+
+	![Here I am adding a Egg and Bacon Burger:](./public/assets/img/addbrowser.PNG)
 	
-* ![Here is MySQL before I added the burger:](./public/assets/img/beforeaddsql.PNG)
+* This shows the addition to the Ready to Eat da Burger column:
 
-* ![Here I am adding a Egg and Bacon Burger:](./public/assets/img/addbrowser.PNG)
+	![This shows the addition to the Ready to Eat da Burger column:](./public/assets/img/afteraddbrowser.PNG)
 
-* ![This shows the addition to the Ready to Eat da Burger column:](./public/assets/img/afteraddbrowser.PNG)
+* And lastly that it was added to MySQL:
 
-* ![And lastly that it was added to MySQL:](./public/assets/img/afteraddsql.PNG) 
+	![And lastly that it was added to MySQL:](./public/assets/img/afteraddsql.PNG) 
 
 
 ## Deployment
 
-This application is delployed at 
+This application is delployed at [https://still-sea-48695.herokuapp.com/](https://still-sea-48695.herokuapp.com/)
 
 
 ## Author
