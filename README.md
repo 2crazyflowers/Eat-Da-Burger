@@ -149,7 +149,7 @@ __The other option for running the MySQL code is to:__
 
 1. Go to your browser and open a new tab and type `localhost:3000` then hit enter
 
-![Image of App in Browser](.public/assets/img/browserimage.PNG)
+![Image of App in Browser](./public/assets/img/browserimage.PNG)
 As you can see from the image there are 3 columns: Ready to Eat da Burger, Devoured Burgers, Order da Burger 
 
 Eat da Burger Option
